@@ -1,0 +1,119 @@
+
+
+/* Estilo del contenedor principal */
+.container {
+    margin-top: 30px;
+  }
+  
+  /* Estilo de la tarjeta */
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow:black 0 4px 6px;
+    background-color: #030302;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilo de la imagen dentro de la tarjeta */
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Estilo del título dentro de la tarjeta */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Estilo del subtítulo dentro de la tarjeta */
+  .card-subtitle {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del contenedor que alinea las tarjetas */
+  .d-flex.justify-content-evenly {
+    flex-wrap: wrap;
+  }
+  
+  /* Estilo del título principal */
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #7BAEB1;
+  }
+  
+  /* Estilo de fondo general de la página */
+ * {
+    background-color: #7BAEB1;
+  }
+  
+  /* Estilo del contenedor que alinea el contenido principal */
+  body > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  /* CardNosotros.css */
+.header-container {
+  text-align: center;
+  background-color: #ff6e42;
+  padding: 40px 0;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+
+.btn-volver:hover {
+  background-color: #B1E44A;
+}
+
+
+/* CardNosotros.css */
+.header-container {
+  text-align: center;
+  background-color: #70b4b8;
+  padding: 40px 0;
+}
+
+.main-title {
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-volver {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #B1E44A;
+  color: #030302;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-volver:hover {
+  background-color: #537577;
+}
