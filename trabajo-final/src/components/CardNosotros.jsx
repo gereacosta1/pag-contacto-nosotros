@@ -19,7 +19,7 @@ const CardNosotros = () => {
           </div>
         </div>
         <div className="col-lg-6">
-          <h2 className='h2'>Creadores de la Gran Sanguchería Mila Nadir</h2>
+          <h2>Creadores de la Gran Sanguchería Mila Nadir</h2>
         </div>
       </div>
 
